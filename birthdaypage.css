@@ -1,0 +1,103 @@
+body {
+    background-color: goldenrod;
+  }
+  
+  #wrapper {
+    margin: 24px auto;
+    width: 1200px;
+    background-color: blueviolet;
+  }
+  
+  h1{
+    padding: 20px;
+    border: 5px solid #ffffff;
+    color: #ffffff;
+  }
+  
+  #photo{
+    padding: 20px;
+    border: 5px solid #ffffff;
+    color: #ffffff;
+    float: left;
+  }
+  
+  #intro{
+    margin-left: 3px;
+  }
+  
+  #intro a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  #intro a:hover{
+    color: goldenrod;
+    text-decoration: none;
+  }
+  
+  .floatimage {
+    width: 450px;
+    margin-left: 0px;
+  }
+
+  
+  #meme{
+    border: 5px solid #ffffff;
+    color: #ffffff;
+    margin-left: 600px;
+  }
+
+  #newmeme{
+        border: 5px solid #ffffff;
+        color: #ffffff;
+        margin-left: 875px;
+  }
+  
+  nav ul {
+    list-style-type: none;  /* none, disc, circle, square */
+    padding: 0px;
+  }
+  
+  nav li {
+    border: 0px solid black;
+    margin: 10px 10px 10px 10px;
+    margin-left: 100px;
+    margin-right: 50px;
+    padding-right: 0%;
+    Background-Color: goldenrod;
+    width: 250px;
+    border-radius: 50px;
+    color: white;
+    float: left;
+    }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+  }
+  
+  #jojo{
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    padding: 10px;
+      font-family: 'Xanh Mono', monospace;
+      border: 5px solid #ffffff;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  
+  nav li a:hover {
+    background-color: blueviolet;
+    border-radius: 50px;
+    transition: background-color 1.0s, width 2.0s, color 2.0s;
+  }
