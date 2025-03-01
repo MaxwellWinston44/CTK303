@@ -15,6 +15,7 @@ body {
     color: black;
     margin-right: 65px;
     margin-left: 65px;
+      text-align: center;
   }
   
   #photo{
@@ -105,8 +106,3 @@ body {
     border-radius: 50px;
     transition: background-color 1.0s, width 2.0s, color 2.0s;
   }
-
-header{
-  text-align: center;
-  color: black;
-}
