@@ -56,13 +56,12 @@ body {
         margin-left: 875px;
   }
   
-   ul {
+  nav ul {
     list-style-type: none;  /* none, disc, circle, square */
     padding: 0px;
-    color: black;
   }
   
- ul li {
+  nav li {
     border: 0px solid black;
     margin: 10px 10px 10px 10px;
     margin-left: 100px;
@@ -75,7 +74,7 @@ body {
     float: left;
     }
   
-    ul li a {
+  nav ul li a {
     color: black;
     text-decoration: none;
     display: block;
@@ -91,7 +90,7 @@ body {
       border: 5px solid #ffffff;
   }
   
- ul li a {
+  nav ul li a {
     color: black;
     text-decoration: none;
     padding-top: 26px;
@@ -100,9 +99,8 @@ body {
     padding-left: 40px;
   }
   
- ul li a:hover {
+  nav li a:hover {
     background-color: blueviolet;
     border-radius: 50px;
     transition: background-color 1.0s, width 2.0s, color 2.0s;
   }
-
